@@ -11,4 +11,3 @@ $StorageAccountName = get-azstorageaccount -StorageAccountName "nikatavasolysa" 
  
 New-AzRmStorageShare -StorageAccount $StorageAccountName -Name "nikatavasolysa"
  
-After running the commands, Create a Cloud Shell instance as follows:
